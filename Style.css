@@ -1,0 +1,107 @@
+body{
+    background-color: #2d3037 ;
+    /* 3f434c */
+
+    background-image: url('1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+   
+  }
+
+  
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #ab0016;}
+  
+  ul.topnav li a.active {background-color: #410008;}
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.center, 
+    ul.topnav li {float: none;}
+   
+  }
+
+.hometext{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    width: 50%;
+    transform: translate(50% , 50%);     
+    transform-box:inherit;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonblood {
+  background-color: #2d3037; 
+  color: whitesmoke; 
+  border: 2px solid #2d3037;
+  border-radius: 30%;
+}
+
+.buttonblood:hover {
+  background-color: #410008;
+  color: white;
+}
+
+
+ .map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left: 5px;
+    top:5px;
+    height:50%;
+    width:50%;
+    position:absolute;
+  
+
+}
+.Campus{
+    padding: auto;
+}
